@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Mart</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="" class="d-inline-block align-text-top">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Slider -->
+        <section class="container">
+            <div id="carouselExampleControls" class="carousel slide background_color container" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                <h1>$500</h1>
+                                <button type="button" class="btn btn-danger">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+
+                                <img src="headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                <h1>$500</h1>
+                                <button type="button" class="btn btn-danger">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                <h1>$500</h1>
+                                <button type="button" class="btn btn-danger">Buy Now</button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- catagory -->
+        <section class="container my-5">
+            <div class="row gy-5">
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="p-3 border rounded d-flex justify-content-between align-items-center bg-warning">
+                        <h1 class="text-white">Watch</h1>
+                        <img src="watch.png" width="100" height="100" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="p-3 border rounded d-flex justify-content-between align-items-center bg-info">
+                        <h1 class="text-white">Shoes</h1>
+                        <img src="shoes.png" width="100" height="100" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="p-3 border rounded d-flex justify-content-between align-items-center bg-primary">
+                        <h1 class="text-white">Bag</h1>
+                        <img src="bag.png" width="100" height="100" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- *********************************************** -->
+
+        <!-- shoes  -->
+        <section class="container my-5 " id="shoes">
+            <h2>Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At adipisci labore quasi minima assumenda rem!</p>
+                        </div>
+                        <div class="m-3 ">
+                            <button type="button" class="btn btn-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Airmax</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur esse, officia maxime sunt aliquid quam?</p>
+                        </div>
+                        <div class="m-3 ">
+                            <button type="button" class="btn btn-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis adipisci quod ducimus sapiente mollitia voluptate.</p>
+                        </div>
+                        <div class="m-3 ">
+                            <button type="button" class="btn btn-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!-- Bagpack -->
+        <section class="container my-5" id="backpack">
+            <h2>Bagpack</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Bacgpack</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At adipisci labore quasi minima assumenda rem!</p>
+                        </div>
+                        <div class="m-3 ">
+                            <button type="button" class="btn btn-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Darkcyan Bagpack</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur esse, officia maxime sunt aliquid quam?</p>
+                        </div>
+                        <div class="m-3 ">
+                            <button type="button" class="btn btn-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12	col-md-6 col-lg-4">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Swallow Black Bagpack</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis adipisci quod ducimus sapiente mollitia voluptate.</p>
+                        </div>
+                        <div class="m-3 ">
+                            <button type="button" class="btn btn-danger">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!-- ***************************** -->
+        <!-- email section area  -->
+        <section class="container my-5" id="subscribe">
+            <div style="height: 300px;" class="background_color d-flex justify-content-center align-items-center shadow-sm">
+
+                <div>
+                    <h1>Let's Stay In Touch</h1>
+                    <label for="formGroupExampleInput" class="form-label">Get updates on sales, specials and more</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Email..."><br>
+                    <button type="button" class="btn btn-danger">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="text-center ">©2022. Panda Mart. All rights reserved. @APU GHOSH.</p>
+    </footer>
+
+
+
+
+
+
+    <!-- bootstrap js Script  -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+</body>
+
+</html>
